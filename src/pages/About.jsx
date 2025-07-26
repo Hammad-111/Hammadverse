@@ -7,7 +7,7 @@ const About = () => {
     <section id="about" style={{ minHeight: "100vh"}}> 
       <div className="about-container">
         <div className="about-image">
-          <img src={profileImage} alt="Hammad Javed" />
+          <img src={profileImage} alt="Dawood Javed" />
         </div>
 
         <div className="about-details">
