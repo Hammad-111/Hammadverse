@@ -1,0 +1,80 @@
+header {
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #181c2f 0%, #232946 100%);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00ffe7;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  font-family: "Great Vibes", cursive;
+}
+.scroll-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar a {
+  font-size: 1.1rem;
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+.navbar a:hover, .navbar a.active {
+  background: #00ffe7;
+  color: #181c2f;
+}
+.navbar button {
+  font-weight: 600;
+  border: none;
+  padding: 11px 18px;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-left: 8px;
+  box-shadow: 0 2px 8px rgba(0,255,231,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.navbar button:hover {
+  background: #00bfae;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 10px;
+    gap: 10px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+}

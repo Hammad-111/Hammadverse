@@ -1,0 +1,114 @@
+#about {
+  padding: 300px 20px;
+  background-color: #f9f9f9;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 350px;
+  height: 350px;
+  border-radius: 30%;
+  object-fit: cover;
+  border: 2px solid #007acc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.about-image img {
+  transition: 
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.about-image img:hover {
+  transform: scale(1.08) rotate(-5deg);
+  box-shadow: 0 8px 32px rgba(0, 122, 204, 0.25), 0 2px 8px rgba(0,0,0,0.10);
+  border-color: #005fa3;
+  cursor: pointer;
+}
+
+
+.about-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-details h2 {
+  font-size: 70px;
+  color: #333;
+  margin-bottom: 5px;
+}
+.about-details h2 {
+  transition: 
+    background 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    color 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    letter-spacing 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  background: linear-gradient(90deg, #007acc 0%, #00c6ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+.about-details h2:hover {
+  background: linear-gradient(90deg, #ff9800 0%, #ff5e62 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 3px;
+  box-shadow: 0 2px 18px rgba(255, 152, 0, 0.18), 0 1px 2px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.about-details h4 {
+  font-size: 18px;
+  color: #007acc;
+  margin-bottom: 15px;
+}
+
+.about-details .summary {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.about-details p {
+  font-size: 15px;
+  margin: 6px 0;
+  color: #444;
+}
+
+.about-details a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.about-details a:hover {
+  text-decoration: underline;
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #007acc;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #005b99;
+}
