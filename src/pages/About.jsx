@@ -11,7 +11,7 @@ const About = () => {
         </div>
 
         <div className="about-details">
-          <h2>Dawood Javed</h2>
+          <h2>Waleed Javed Kya Hal ha</h2>
           <h4>Full Stack Developer | MERN | React Native | .NET | Python </h4>
           <p className="summary">
              I am a passionate and dedicated programmer with hands-on experience in web and mobile app development. 
