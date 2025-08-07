@@ -23,8 +23,8 @@ function App() {
             <div className="main-content">
               <Home />
               <Shop />
-              <About />
               <Cart />
+              <About />
             </div>
           </>
         } />
@@ -34,8 +34,8 @@ function App() {
             <div className="main-content">
               <Home />
               <Shop />
-              <About />
               <Cart />
+              <About />
             </div>
           </>
         } />

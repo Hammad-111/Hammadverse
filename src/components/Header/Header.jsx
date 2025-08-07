@@ -24,8 +24,8 @@ function Header() {
           {/* Smooth Scroll Buttons */}
           <li><button className="scroll-btn" onClick={() => scrollToSection("home")}>Home</button></li>
           <li><button className="scroll-btn" onClick={() => scrollToSection("shop")}>Shop</button></li>
-          <li><button className="scroll-btn" onClick={() => scrollToSection("about")}>About</button></li>
           <li><button className="scroll-btn" onClick={() => scrollToSection("cart")}>Cart</button></li>
+          <li><button className="scroll-btn" onClick={() => scrollToSection("about")}>About</button></li>
 
           {!user && (
             <>

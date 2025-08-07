@@ -25,10 +25,9 @@ const Shop = () => {
           type="text"
           placeholder="Search for products..."
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => setSearch(e.target.value)} 
         />
-      </div>
-
+     </div>
       <div className="shop-content">
         {/* Sidebar Filters */}
         <aside className="shop-sidebar">

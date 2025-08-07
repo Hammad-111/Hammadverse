@@ -1,48 +1,62 @@
 /* Shop.css */
-
 .shop-page {
-    padding: 40px 20px;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f9f9f9;
-    min-height: 100vh;
-    padding: 2rem
-  }
-  
-  .shop-banner {
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    color: white;
-    padding: 40px;
-    text-align: center;
-    border-radius: 12px;
-    margin-bottom: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  }
-  
-  .shop-banner h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  .shop-banner p {
-    font-size: 18px;
-  }
-  
-  .shop-search-filter {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-    gap: 15px;
-  }
-  
-  .shop-search-filter input[type="text"],
-  .shop-search-filter select {
-    flex: 1;
-    min-width: 180px;
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-  }
-  
-  
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 1rem
+}
+
+.shop-banner {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.shop-banner h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.shop-banner p {
+  font-size: 18px;
+}
+
+.shop-search {
+  padding: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.shop-search input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #b50b0b;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: sans-serif;
+  outline: none;
+}
+
+.shop-sidebar {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 2rem;
+}
+
+.filter-group h4 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.shop-sidebar label {
+  margin: 5px;
+}
+
+.shop-sidebar h3 {
+  font-size: 25px;
+  margin-top: 1rem;
+}
