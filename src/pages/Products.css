@@ -61,3 +61,42 @@
     color: #28a745;
   }
   
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .product-section {
+      padding: 1.5rem;
+    }
+    .card-container {
+      height: 420px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .product-section {
+      padding: 1rem;
+      text-align: left;
+    }
+    .scroll-buttons {
+      display: none;
+    }
+    .card-container {
+      gap: 0.75rem;
+      padding-bottom: 0.75rem;
+      height: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+    }
+    .product-card {
+      width: 70vw;
+      min-width: 260px;
+      scroll-snap-align: start;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .product-card {
+      width: 82vw;
+      min-width: 240px;
+    }
+  }
+  

@@ -63,18 +63,44 @@ header {
   background: #00bfae;
   color: #fff;
 }
+@media (max-width: 1024px) {
+  header {
+    padding: 14px 20px;
+  }
+  .logo {
+    font-size: 1.6rem;
+  }
+  .navbar a { font-size: 1rem; }
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 12px 10px;
+    align-items: stretch;
+    padding: 12px 12px;
     gap: 10px;
   }
 
   .navbar ul {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: stretch;
+    gap: 6px;
     width: 100%;
+  }
+
+  .navbar a {
+    width: 100%;
+    padding: 10px 12px;
+  }
+
+  .navbar button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .logo {
+    letter-spacing: 2px;
+    font-size: 1.4rem;
   }
 }

@@ -100,3 +100,63 @@
     filter: brightness(1.13) contrast(1.08) saturate(1.25);
     cursor: pointer;
   }
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .home-left h1 {
+    font-size: 1.8rem;
+    min-height: 64px;
+  }
+  .home-left p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-section {
+    flex-direction: column;
+    height: auto;
+    padding: 1.25rem;
+    gap: 1.25rem;
+  }
+
+  .home-left {
+    padding-right: 0;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .home-left-wrapper {
+    width: 100%;
+    padding: 1.25rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+
+  .home-left h1 {
+    font-size: 1.6rem;
+    white-space: normal;
+    overflow: visible;
+  }
+
+  .home-right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .home-image {
+    max-width: 90vw;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .home-left h1 {
+    font-size: 1.4rem;
+  }
+  .home-left p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
