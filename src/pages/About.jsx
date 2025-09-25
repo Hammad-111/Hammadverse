@@ -4,7 +4,7 @@ import profileImage from "../assets/Hammad.png"; // apni image ka path
 
 const About = () => {
   return (
-    <section id="about" style={{ minHeight: "100vh"}}> 
+    <section id="about"> 
       <div className="about-container">
         <div className="about-image">
           <img src={profileImage} alt="Hammad Javed" />

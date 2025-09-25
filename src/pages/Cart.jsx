@@ -128,7 +128,7 @@ const Cart = () => {
 
   return (
     <div className="cart-container">
-      <section id="cart" style={{ minHeight: "100vh", backgroundColor: "#f5f5f5", padding: "2rem" }}>
+      <section id="cart" style={{ backgroundColor: "#f5f5f5", padding: "1rem" }}>
         <h2>Your Cart 🛒</h2>
         {cartItems.length === 0 ? (
           <p>Your cart is empty.</p>
