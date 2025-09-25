@@ -49,6 +49,7 @@
   mask-composite: exclude;
   -webkit-mask-composite: destination-out;
   box-sizing: border-box;
+  pointer-events: none;
 }
 
   
@@ -109,6 +110,8 @@
   }
   .home-left p {
     font-size: 1rem;
+    word-break: break-word;
+    overflow-wrap: anywhere;
   }
 }
 
@@ -132,6 +135,8 @@
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
   }
+
+  .home-left-wrapper::before { content: none; }
 
   .home-left h1 {
     font-size: 1.6rem;
