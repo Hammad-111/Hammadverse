@@ -1,6 +1,6 @@
 /* src/components/ProductCards.css */
 .product-section {
-    padding: 2rem;
+    padding: 1.25rem;
     background-color: #f8f9fa;
     text-align: center;
   }
@@ -25,8 +25,12 @@
     overflow-x: auto;
     gap: 1rem;
     scroll-behavior: smooth;
-    padding-bottom: 1rem;
-    height: 500px;
+    padding-bottom: 0.5rem;
+    height: auto;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   
   .product-card {
@@ -37,6 +41,7 @@
     padding: 1rem;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
   }
   
   .product-card img {
@@ -66,9 +71,6 @@
     .product-section {
       padding: 1.5rem;
     }
-    .card-container {
-      height: 420px;
-    }
   }
 
   @media (max-width: 768px) {
@@ -87,7 +89,7 @@
       -webkit-overflow-scrolling: touch;
     }
     .product-card {
-      width: 70vw;
+      width: 78vw;
       min-width: 260px;
       scroll-snap-align: start;
     }
@@ -95,7 +97,7 @@
 
   @media (max-width: 420px) {
     .product-card {
-      width: 82vw;
+      width: 88vw;
       min-width: 240px;
     }
   }
