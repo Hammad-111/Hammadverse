@@ -153,10 +153,11 @@
 
 @media (max-width: 420px) {
   .home-left h1 {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
   }
   .home-left p {
-    font-size: 0.95rem;
-    line-height: 1.5;
+    font-size: 0.92rem;
+    line-height: 1.45;
   }
+  .home-image:hover { transform: none; }
 }

@@ -71,7 +71,6 @@ export default function Home() {
 
   return (
     <div className="home-section">
-    <section id="home" style={{ minHeight: "100vh", backgroundColor: "#f5f5f5", padding: "2rem"}}></section>
     <div className="home-left-wrapper">
       <div className="home-left">
         <h1>{currentText}</h1>
